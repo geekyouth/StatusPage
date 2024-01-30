@@ -4,19 +4,15 @@ app:
   crontime: "*/1 * * * *"
 
 uptimerobot:
-  api_key: fake_api_key
+  api_key: ur894242-90d1eb90acc82624bcaed27a
   pattern: "%group/%index/%name"
   statuses: "2-9"
 
 website:
   title: "服务状态"
-  copyright: "楠格"
+  copyright: "极客青年"
   links:
     - name: 主页
-      href: http://about.nange.cn
-    - name: 楠格
-      href: http://www.nange.cn
-    - name: 探针
-      href: http://server.nange.cn
+      href: https://home.java666.cn
     - name: GitHub
-      href: http://github.com/xOS
+      href: http://github.com/geekyouth

@@ -14,7 +14,7 @@ services:
       - WEBSITE_COPYRIGHT=
     # To use config file for more flexible configure,
     # please uncomment next block
-    # volumes: 
-    #   - ./config:/app/config
+    volumes:
+      - ./config:/app/config
     ports: 
-      - 127.0.0.1:8082:3000
+      - "3000:3000"

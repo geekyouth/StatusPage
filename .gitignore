@@ -72,3 +72,6 @@ typings/
 .DS_Store
 build/*
 # End of https://www.gitignore.io/api/node,visualstudiocode
+
+###
+/.idea/

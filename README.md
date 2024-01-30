@@ -21,7 +21,7 @@
 
 ```bash
 git clone https://github.com/XOS/StatusPage.git && cd StatusPage
-yarn install && yarn cache clean
+yarn config set strict-ssl false && yarn install && yarn cache clean
 yarn build
 ```
 
@@ -103,4 +103,3 @@ To put index into your parser, you will able to sort your group in page manually
 > ```
 > GroupA//MonitorB
 > ```
-
